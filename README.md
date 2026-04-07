@@ -1,16 +1,29 @@
-# 🚀 Fullstack Dev Journey 
+# DEV JOURNAL
 
-Đây là repository lưu trữ toàn bộ tài liệu học tập, research, snippet code hướng tới mục tiêu trở thành một **Fullstack Developer** và chuyên nghiệp.
+Đây là repository lưu trữ toàn bộ công pháp, tâm đắc, bút ký tu học, mảnh ghép tri thức, snippet code cùng những lần luyện công hằng ngày trên con đường hướng tới cảnh giới **FullStack Developer**.
 
-Repository này không chỉ chứa code, mà còn là nơi ghi lại quá trình tư duy giải quyết vấn đề, từ việc thiết kế trải nghiệm người dùng đến xây dựng kiến trúc hệ thống backend.
+Repository này không chỉ là nơi cất giữ code, mà còn là một phương thiên địa để ghi lại toàn bộ hành trình tu hành của bản thân. Mục tiêu là đem nơi này luyện thành một **tàng kinh các cá nhân**, có thể thấy rõ từng bước tiến cảnh của chính mình trên con đường tu đạo.
+
+---
 
 ## 📂 Cấu trúc Repository
 
-Để dễ dàng tra cứu, kiến thức trong repo này được chia thành các phân hệ cốt lõi:
+Để dễ quản lý và tra cứu, repository được chia thành các phần chính như sau:
 
-* **`01-ui-ux-design/`**: Áp dụng Design Thinking, thiết kế luồng người dùng (User Flow) và các bài khảo sát đánh giá trải nghiệm.
-* **`02-frontend/`**: Nền tảng giao diện web (HTML/CSS/JS) và các components tái sử dụng được.
-* **`03-backend/`**: Logic server-side, xử lý API và nghiên cứu các kiến trúc hiện đại như Microservices.
-* **`04-databases/`**: Nơi thử nghiệm, thiết kế Schema và đánh giá hiệu năng giữa Relational DB (PostgreSQL) và NoSQL (MongoDB).
-* **`05-cloud-infrastructure/`**: Kiến thức triển khai hạ tầng, đồng bộ dữ liệu (Data Lakehouse) và vận hành hệ thống.
+### `00-journal/`
+### `01-ui-ux-design/`
+### `02-html-css/`
+### `03-javascript/`
+### `04-react/`
+### `05-backend/`
+### `06-database/`
+### `07-devops-cloud/`
+### `08-system-design/`
+### `09-projects/`
 
+---
+
+## 👤 Tác giả
+
+**TDM - Tran Duc Manh**
+- Gmail: **tranducmanh.qct@gmail.com**
