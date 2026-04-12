@@ -77,3 +77,12 @@ Dùng dấu `#` để tạo tiêu đề.
 > Càng nhiều dấu `#` thì cấp tiêu đề càng nhỏ
 
 ### 2. Đoạn văn 
+
+Chỉ cần viết văn bản bình thường là được.
+
+Muốn tách thành đoạn mới, hãy để trống một dòng giữa hai đoạn
+```
+Đây là đoạn thứ nhất.
+
+Đây là đoạn thứ hai.
+```
