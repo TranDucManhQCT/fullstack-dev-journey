@@ -56,3 +56,18 @@ Khi bạn viết bằng Markdown, nội dung thực chất được lưu dưới
 4. Tệp HTML sau đó có thể được hiển thị trên trình duyệt hoặc tiếp tục xuất sang định dạng khác như PDF.
 
 ![Cơ chế hoạt động](./Png/0001.png)
+
+## Cú pháp cơ bản
+
+Markdown được ưa chuộng vì cú pháp rất gọn. Bạn không cần nhớ quá nhiều lệnh, chỉ cần nắm một vài ký hiệu cơ bản là đã có thể viết được tài liệu rõ ràng và đẹp mắt.
+
+Dưới đây là những cú pháp thường dùng nhất.
+
+### 1. Tiêu đề
+
+Dùng dấu `#` để tạo tiêu đề.
+
+```md
+# Tiêu đề cấp 1
+## Tiêu đề cấp 2
+### Tiêu đề cấp 3
