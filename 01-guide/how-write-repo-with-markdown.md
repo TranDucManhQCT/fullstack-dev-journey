@@ -57,6 +57,7 @@ Khi bạn viết bằng Markdown, nội dung thực chất được lưu dưới
 
 ![Cơ chế hoạt động](./Png/0001.png)
 
+---
 ## Cú pháp cơ bản
 
 Markdown được ưa chuộng vì cú pháp rất gọn. Bạn không cần nhớ quá nhiều lệnh, chỉ cần nắm một vài ký hiệu cơ bản là đã có thể viết được tài liệu rõ ràng và đẹp mắt.
@@ -71,3 +72,8 @@ Dùng dấu `#` để tạo tiêu đề.
 # Tiêu đề cấp 1
 ## Tiêu đề cấp 2
 ### Tiêu đề cấp 3
+```
+
+> Càng nhiều dấu `#` thì cấp tiêu đề càng nhỏ
+
+### 2. Đoạn văn 
