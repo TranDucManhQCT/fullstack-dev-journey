@@ -1,7 +1,7 @@
 # Vim
->**Visual Improved**
+>**Vi IMproved**
 
-Là gcc thuần túy không sử dụng các định dạng văn bảng để trình bày, tạo ra những văn bản có dung lượng rất nhẹ và được đọc dễ dàng.
+Là **Text Editor** thuần túy không sử dụng các định dạng văn bảng để trình bày, tạo ra những văn bản có dung lượng rất nhẹ và được đọc dễ dàng.
 
 ## Cài đặt
 
@@ -9,4 +9,10 @@ Là gcc thuần túy không sử dụng các định dạng văn bảng để tr
 apt-get install vim
 ```
 
-Sau khi được cài đặt, vim thường đặt tại `/user/bin/vim`. Tuy nhiên, để biết chính xác vị trí trong mỗi máy tính sử dụng `which vim`.
+Sau khi được cài đặt, vim thường đặt tại `/usr/bin/vim`. Tuy nhiên, để biết chính xác vị trí trong mỗi máy tính sử dụng `which vim`.   
+
+---
+
+## Modes
+
+* **Normal Mode (Mặc định)**: Dùng để di chuyển con trỏ 
