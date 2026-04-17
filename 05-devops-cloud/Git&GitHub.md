@@ -54,20 +54,24 @@ git --version
 
 ## Các lệnh triển khai & Kết nối
 
-Lệnh **`git init`** được sử dụng để chuyển đổi một thư mục thông thường thành một kho lưu trữ Git. Thao tác này tạo ra thư mục ẩn .git để bắt đầu quản lý các siêu dữ liệu và lịch sử thay đổi.
+Lệnh **`git init`** được sử dụng để chuyển đổi một thư mục thông thường thành một kho lưu trữ Git (Local Repo). Thao tác này tạo ra thư mục ẩn .git để bắt đầu quản lý các siêu dữ liệu và lịch sử thay đổi.
 
 ```
 git init
 ```
 
-Để thực hiện quá trình truyền tải dữ liệu, cần định nghĩa một điểm đích. Lệnh **`git remote`** add thực hiện việc gán một định danh (thông thường là origin) cho một URL cụ thể trên hệ thống máy chủ GitHub.
+Để thực hiện quá trình truyền tải dữ liệu, cần định nghĩa một điểm đích. Lệnh **`git remote add`** thực hiện việc gán một định danh (thông thường là origin) cho một URL cụ thể trên hệ thống máy chủ GitHub.
 
 ```
 git remote add origin <Repository_URL>
 ```
+* `add`: Thêm kết nối từ xa mới.
+* `origin`: đặt biệt danh cho URL của kho lưu trữ từ xa ( origin là một biệt danh phổ biến).
+* `<repository_url>`: Chỗ dành cho URL của kho lưu trữ từ xa.
 
 Nhằm tuân thủ các tiêu chuẩn công nghiệp hiện đại, nhánh chính mặc định được thiết lập là main. Lệnh **`git branch -M`** thực hiện thao tác đổi tên nhánh để chuẩn hóa cấu trúc phát triển dự án.
 
 ```
 git branch -M main
 ```
+* Biểu tượng cờ viết hoa `-M` (move) có nghĩa là di chuyển.
