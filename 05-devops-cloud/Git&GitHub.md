@@ -30,11 +30,11 @@ Git Bash là ứng dụng mô phỏng môi trường Bash trên Windows, đi kè
 git --version
 ```
 
-* **Đã cài đặt**: Bạn sẽ thấy thông báo dạng git version 2.x.x.
+**Đã cài đặt**: Bạn sẽ thấy thông báo dạng git version 2.x.x.
 
-* **Chưa cài đặt**: Hệ thống sẽ báo lỗi command not found.
+**Chưa cài đặt**: Hệ thống sẽ báo lỗi command not found.
 
-1. Truy cập trang chủ git-scm.com.
+1. Truy cập trang chủ [git-scm.com](git-scm.com).
 
 2. Tải bản cài đặt phù hợp với hệ điều hành (Windows, macOS, Linux).
 
