@@ -1,7 +1,6 @@
 # Git & GitHub
 
 
-
 ## Tổng quan
 
 <details>
@@ -16,6 +15,9 @@ Git là một hệ thống kiểm soát phiên bản phân tán được dùng �
 GitHub là một nền tảng lưu trữ mã nguồn trực tuyến dựa trên Git. Nó cung cấp giao diện web để xem lịch sử commit, quản lý pull request, review code, báo cáo lỗi (Issues), và tích hợp CI/CD. 
 
 </details>
+
+
+
 <details>
   <summary><b>Git Bash là gì?</b></summary>
 
@@ -39,3 +41,13 @@ git --version
 2. Tải bản cài đặt phù hợp với hệ điều hành (Windows, macOS, Linux).
 
 3. Chạy file setup và giữ các thiết lập mặc định (Recommended).
+
+---
+
+## Cấu trúc kho lưu trữ (Repository)
+
+Để có thể **chia sẻ trực tuyến** một đoạn code, ta cần quy trình triển khai dựa trên tương tác giữa hai loại kho lưu trữ kết nối với nhau:
+
+- **Kho lưu trữ từ xa (Remote Repository):** Lưu trữ tại máy trạm cá nhân, phục vụ quá trình phát triển và lưu trữ bản nháp.
+
+- **Kho lưu trữ cục bộ (Local Repository):** Lưu trữ trên nền tảng đám mây (GitHub), đóng vai trò đồng bộ hóa và cộng tác nhóm.
