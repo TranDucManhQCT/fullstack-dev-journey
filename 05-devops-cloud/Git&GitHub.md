@@ -25,11 +25,17 @@ Git Bash là ứng dụng mô phỏng môi trường Bash trên Windows, đi kè
 
 ## Cài đặt 
 
-Đầu tiên, hãy kiểm ra Git đã được cài đặt sẵn trên máy tình mình chưa. Tìm và mở **Terminal**, sau đó nhập lệnh:
+Để kiểm ra Git đã được cài đặt sẵn chưa. Mở `Terminal` (hoặc `Git Bash`) và nhập lệnh sau: 
 ```
 git --version
 ```
 
-- Nếu thấy số phiên bản `git version 2.53.0.windows.2`, thì Git đã được cài đặt.
+-**Đã cài đặt**: Bạn sẽ thấy thông báo dạng git version 2.x.x.
 
-- 
+-**Chưa cài đặt**: Hệ thống sẽ báo lỗi command not found.
+
+1. Truy cập trang chủ git-scm.com.
+
+2. Tải bản cài đặt phù hợp với hệ điều hành (Windows, macOS, Linux).
+
+3. Chạy file setup và giữ các thiết lập mặc định (Recommended).
