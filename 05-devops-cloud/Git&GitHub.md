@@ -11,3 +11,9 @@
 
 ## Cài đặt 
 
+Đầu tiên, hãy kiểm ra Git đã được cài đặt sẵn trên máy tình mình chưa. Tìm và mở **Terminal**, sau đó nhập lệnh:
+```
+git --version
+```
+
+
