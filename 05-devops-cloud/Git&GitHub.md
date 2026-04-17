@@ -51,3 +51,23 @@ git --version
 - **Kho lưu trữ từ xa (Remote Repository):** Lưu trữ tại máy trạm cá nhân, phục vụ quá trình phát triển và lưu trữ bản nháp.
 
 - **Kho lưu trữ cục bộ (Local Repository):** Lưu trữ trên nền tảng đám mây (GitHub), đóng vai trò đồng bộ hóa và cộng tác nhóm.
+
+## Các lệnh triển khai & Kết nối
+
+Lệnh **`git init`** được sử dụng để chuyển đổi một thư mục thông thường thành một kho lưu trữ Git. Thao tác này tạo ra thư mục ẩn .git để bắt đầu quản lý các siêu dữ liệu và lịch sử thay đổi.
+
+```
+git init
+```
+
+Để thực hiện quá trình truyền tải dữ liệu, cần định nghĩa một điểm đích. Lệnh **`git remote`** add thực hiện việc gán một định danh (thông thường là origin) cho một URL cụ thể trên hệ thống máy chủ GitHub.
+
+```
+git remote add origin <Repository_URL>
+```
+
+Nhằm tuân thủ các tiêu chuẩn công nghiệp hiện đại, nhánh chính mặc định được thiết lập là main. Lệnh **`git branch -M`** thực hiện thao tác đổi tên nhánh để chuẩn hóa cấu trúc phát triển dự án.
+
+```
+git branch -M main
+```
