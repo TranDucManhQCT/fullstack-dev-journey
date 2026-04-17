@@ -34,8 +34,8 @@ git --version
 
 - **Chưa cài đặt**: Hệ thống sẽ báo lỗi command not found.
 
-1. Truy cập trang chủ git-scm.com.
+    1. Truy cập trang chủ git-scm.com.
 
-2. Tải bản cài đặt phù hợp với hệ điều hành (Windows, macOS, Linux).
+    2. Tải bản cài đặt phù hợp với hệ điều hành (Windows, macOS, Linux).
 
-3. Chạy file setup và giữ các thiết lập mặc định (Recommended).
+    3. Chạy file setup và giữ các thiết lập mặc định (Recommended).
