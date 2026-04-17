@@ -6,7 +6,7 @@
 <details>
   <summary><b>Git là gì?</b></summary>
 
-Git là một hệ thống kiểm soát phiên bản phân tán được dùng để quản lý tiến độ của một dự án, từ đơn giản như một trang `index.html` hoặc phức tạp như một ứng dụng `full-stack` hoàn chỉnh. Có thể quay lại bất kỳ phiên bản nào trong lịch sử, cộng tác với người khác làm việc song song trên nhiều tính năng.
+Git là một hệ thống kiểm soát phiên bản phân tán được dùng để quản lý tiến độ của một dự án, từ đơn giản như một trang `index.html` hoặc phức tạp như một ứng dụng `full-stack` hoàn chỉnh. Có thể quay lại bất kỳ phiên bản nào trong lịch sử, hỗ trợ cộng tác song song nhiều tính năng mà không làm gián đoạn luồng chính.
 
 </details>
 <details>
@@ -54,11 +54,13 @@ git --version
 
 ## Các lệnh triển khai & Kết nối
 
-Lệnh **`git init`** được sử dụng để chuyển đổi một thư mục thông thường thành một kho lưu trữ Git (Local Repo). Thao tác này tạo ra thư mục ẩn .git để bắt đầu quản lý các siêu dữ liệu và lịch sử thay đổi.
+Lệnh **`git init`** được sử dụng để chuyển đổi một thư mục thông thường thành một kho lưu trữ Git (Local Repo). 
 
 ```
 git init
 ```
+
+* Tạo ra thư mục ẩn .git để bắt đầu quản lý các siêu dữ liệu và lịch sử thay đổi.
 
 Để thực hiện quá trình truyền tải dữ liệu, cần định nghĩa một điểm đích. Lệnh **`git remote add`** thực hiện việc gán một định danh (thông thường là origin) cho một URL cụ thể trên hệ thống máy chủ GitHub.
 
@@ -69,9 +71,9 @@ git remote add origin <Repository_URL>
 * `origin`: đặt biệt danh cho URL của kho lưu trữ từ xa ( origin là một biệt danh phổ biến).
 * `<repository_url>`: Chỗ dành cho URL của kho lưu trữ từ xa.
 
-Nhằm tuân thủ các tiêu chuẩn công nghiệp hiện đại, nhánh chính mặc định được thiết lập là main. Lệnh **`git branch -M`** thực hiện thao tác đổi tên nhánh để chuẩn hóa cấu trúc phát triển dự án.
+Nhằm tuân thủ các tiêu chuẩn hiện đâị, nhánh chính mặc định được thiết lập là main. Lệnh **`git branch -M`** thực hiện thao tác đổi tên nhánh để chuẩn hóa cấu trúc phát triển dự án.
 
 ```
 git branch -M main
 ```
-* Biểu tượng cờ viết hoa `-M` (move) có nghĩa là di chuyển.
+* Biểu tượng cờ viết hoa `-M` (Move/Rename) buộc đổi tên nhánh hiện tại thành main.
