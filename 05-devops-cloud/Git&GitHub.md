@@ -1,7 +1,7 @@
 # Git & GitHub
 
 <details>
-  <summary>**Lịch sử phát triển**</summary>
+  <summary><b>>Lịch sử phát triển</b>></summary>
 
   Nội dung bên trong ở đây:
   - Thông tin 1
