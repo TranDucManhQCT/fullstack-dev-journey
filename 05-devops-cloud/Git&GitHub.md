@@ -1,7 +1,7 @@
 # Git & GitHub
 
 <details>
-  <summary>test md</summary>
+  <summary>**Lịch sử phát triển**</summary>
 
   Nội dung bên trong ở đây:
   - Thông tin 1
