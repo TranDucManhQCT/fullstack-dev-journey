@@ -58,12 +58,14 @@ git --version
   <summary><b>git init — Khởi tạo Local Repository</b></summary>
 
 Biến một thư mục thông thường thành một kho lưu trữ cục bộ (Git Repo). Chỉ cần chạy một lần khi bắt đầu dự án mới.
-<code>
-git init
-</code>
+
 Thư mục ẩn .git/ được tạo ra — chứa toàn bộ lịch sử commit, cấu hình và siêu dữ liệu của repo. Không xóa thư mục nà
 
 </details>
+
+```
+git init
+```
 
 Lệnh **`git init`** được sử dụng để chuyển đổi một thư mục thông thường thành một kho lưu trữ Git (Local Repo). 
 
