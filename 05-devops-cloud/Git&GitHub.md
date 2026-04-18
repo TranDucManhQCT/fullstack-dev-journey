@@ -59,21 +59,22 @@ git --version
 
 - Biến một thư mục thông thường thành một kho lưu trữ cục bộ (Git Repo). Chỉ cần chạy một lần khi bắt đầu dự án mới.
 
-- Thư mục ẩn .git/ được tạo ra — chứa toàn bộ lịch sử commit, cấu hình và siêu dữ liệu của repo. Không xóa thư mục nà
+- Thư mục ẩn <code>.git/</code> được tạo ra — chứa toàn bộ lịch sử commit, cấu hình và siêu dữ liệu của repo. Không xóa thư mục nà
 
 </details>
 
 ```
 git init
 ```
+<details>
+  <summary><b>git remote add — Kết nối với Remote Repository</b></summary>
 
-Lệnh **`git init`** được sử dụng để chuyển đổi một thư mục thông thường thành một kho lưu trữ Git (Local Repo). 
+- Đổi tên nhánh hiện tại thành main. Tiêu chuẩn hiện đại dùng main thay cho master (từ năm 2020).
 
-```
-git init
-```
+- <code>-M</code>	Viết tắt của --move --force — buộc đổi tên ngay cả khi đã có nhánh trùng tên. Khác với -m (chữ thường) sẽ báo lỗi nếu trùng
 
-* Tạo ra thư mục ẩn .git để bắt đầu quản lý các siêu dữ liệu và lịch sử thay đổi.
+</details>
+
 
 Để thực hiện quá trình truyền tải dữ liệu, cần định nghĩa một điểm đích. Lệnh **`git remote add`** thực hiện việc gán một định danh (thông thường là origin) cho một URL cụ thể trên hệ thống máy chủ GitHub.
 
