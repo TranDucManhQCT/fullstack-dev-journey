@@ -48,11 +48,22 @@ git --version
 
 Để có thể **chia sẻ trực tuyến** một đoạn code, ta cần quy trình triển khai dựa trên tương tác giữa hai loại kho lưu trữ kết nối với nhau:
 
-- **Kho lưu trữ từ xa (Remote Repository):** Lưu trữ tại máy trạm cá nhân, phục vụ quá trình phát triển và lưu trữ bản nháp.
+- **Kho lưu trữ từ xa (Remote Repository):** thường đặt trên GitHub, dùng để chia sẻ và cộng tác nhóm.
 
-- **Kho lưu trữ cục bộ (Local Repository):** Lưu trữ trên nền tảng đám mây (GitHub), đóng vai trò đồng bộ hóa và cộng tác nhóm.
+- **Kho lưu trữ cục bộ (Local Repository):** nơi bạn viết code, tạo commit và thử nghiệm. Không cần internet.
 
 ## Các lệnh triển khai & Kết nối
+
+<details>
+  <summary><b>git init — Khởi tạo Local Repository</b></summary>
+
+Biến một thư mục thông thường thành một kho lưu trữ cục bộ (Git Repo). Chỉ cần chạy một lần khi bắt đầu dự án mới.
+<code>
+git init
+</code>
+Thư mục ẩn .git/ được tạo ra — chứa toàn bộ lịch sử commit, cấu hình và siêu dữ liệu của repo. Không xóa thư mục nà
+
+</details>
 
 Lệnh **`git init`** được sử dụng để chuyển đổi một thư mục thông thường thành một kho lưu trữ Git (Local Repo). 
 
