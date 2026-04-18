@@ -66,12 +66,26 @@ git --version
 ```
 git init
 ```
+
 <details>
   <summary><b>git remote add — Kết nối với Remote Repository</b></summary>
 
+- Gán một tên gọi tắt cho URL của Remote Repository, để các lệnh sau không phải gõ URL dài mỗi lần.
+
+- Kiểm tra các remote đã kết nối bằng <code>git remote -v</code>. Lệnh này hiển thị tên và URL của tất cả remote hiện có.
+
+</details>
+
+```
+git remote add origin <repository_url>
+```
+
+<details>
+  <summary><b>git branch -M — Đổi tên nhánh mặc định</b></summary>
+
 - Đổi tên nhánh hiện tại thành main. Tiêu chuẩn hiện đại dùng main thay cho master (từ năm 2020).
 
-- <code>-M</code>	Viết tắt của --move --force — buộc đổi tên ngay cả khi đã có nhánh trùng tên. Khác với -m (chữ thường) sẽ báo lỗi nếu trùng
+- Lệnh này chỉ cần thiết nếu Git cũ của bạn tự tạo nhánh tên master. Các phiên bản Git mới (>= 2.28) đã mặc định là main.
 
 </details>
 
