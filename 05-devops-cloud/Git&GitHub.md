@@ -92,3 +92,15 @@ git remote add origin <repository_url>
 ```
 git branch -M main
 ```
+
+--- 
+
+## Git Workflow
+
+Sau khi đã kết nối Local và Remote repo, đây là lúc thực sự bắt đầu làm việc với code. 
+
+Ta cần phân biệt 2 khái niệm:
+
+- **Working Directory:** Thư mục dự án trên máy bạn — nơi bạn tạo và chỉnh sửa file. Git theo dõi mọi thay đổi ở đây.
+
+- **Staging Area:** Khu vực trung gian, nơi bạn chọn những thay đổi muốn lưu trước khi commit. 
